@@ -1,0 +1,115 @@
+{
+  "swagger": 2,
+  "info": {
+    "title": "The Examiner",
+    "description": "This is a simple Kimono Labs API that pulls headlines from the The Examiner.",
+    "version": "1.0"
+  },
+  "host": "www.kimonolabs.com",
+  "basePath": "/api",
+  "schemes": [
+    "https"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/a5zks930": {
+      "get": {
+        "summary": "The Examiner",
+        "description": "Returns a list of top news items for the day.",
+        "operationId": "news",
+        "parameters": [
+          {
+            "name": "apikey",
+            "in": "query",
+            "description": "API key for accessing the API",
+            "required": true,
+            "type": "string"
+          }
+        ],        
+        "responses": {
+          "200": {
+            "description": "News results",
+            "schema": {
+              "$ref": "Kimono"
+            }
+          }
+        },
+        "tags": [
+          "News"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "Kimono": {
+      "properties": {
+        "name": {
+          "description": "name of the feed",
+          "type": "string"
+        },
+        "count": {
+          "description": "number of news items",
+          "type": "integer"
+        },
+        "frequency": {
+          "description": "how often feed is pulled",
+          "type": "string"
+        },
+        "version": {
+          "description": "version of the feed",
+          "type": "integer"
+        },
+        "newdata": {
+          "description": "whether or not there was new data",
+          "type": "boolean"
+        },
+        "thisversionrun": {
+          "description": "last time this version was run",
+          "type": "dateTime"
+        },
+        "lastsuccess": {
+          "description": "last time it successfull pulled new data",
+          "type": "dateTime"
+        },
+        "nextrun": {
+          "description": "the next time this scraping / harvest will be run",
+          "type": "dateTime"
+        },
+        "results": {
+          "type": "array",
+          "$ref": "Result"
+        }
+      }
+    },
+    "Result": {
+      "properties": {
+        "collection1": {
+          "type": "array",
+          "$ref": "Collection"
+        }
+      }
+    },
+    "Collection": {
+      "properties": {
+        "title": {
+          "type": "array",
+          "$ref": "Title"
+        }
+      }
+    },
+    "Title": {
+      "properties": {
+        "text": {
+          "description": "the text of the news article",
+          "type": "string"
+        },
+        "href": {
+          "description": "the url of the news article",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

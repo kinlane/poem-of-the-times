@@ -1,0 +1,597 @@
+{
+  "name": "Poem of the Times",
+  "description": "This is an aggregate of 25 of the top news sites in to a poem.",
+  "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+  "tags": [
+    "News"
+  ],
+  "created": "2014-10-10",
+  "modified": "2014-10-10",
+  "url": "http://poemofthetimes.laneworks.net/apis.json",
+  "SpecificationVersion": "0.14",
+  "apis": [
+    {
+      "name": "Daily Mall",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Daily Mall.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/daily-mall.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/daily-mall.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Daily Mirror",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Daily Mirror.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/daily-mirror.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/daily-mirror.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Daily Telegraph",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Daily Telegraph.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/daily-telegraph.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/daily-telegraph.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Financial Times",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Financial Times.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/financial-times.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/financial-times.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Houston Chronicle",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Houston Chronicle.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/houston-chronicle.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/houston-chronicle.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Newsday",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Newsday.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/newsday.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/newsday.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "New York Post",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the New York Post.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/new-york-post.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/new-york-post.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "New York Times",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the New York Times.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/new-york-times.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/new-york-times.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Peoples Daily",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Peoples Daily.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/peoples-daily.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/peoples-daily.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "San Jose Mercury News",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the San Jose Mercury News.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/san-jose-mercury-news.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/san-jose-mercury-news.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Star Tribune",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Star Tribune.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/star-tribune.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/star-tribune.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Chicago Sun Times",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Chicago Sun Times.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-chicago-sun-times.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-chicago-sun-times.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Christian Science Monitor",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Christian Science Monitor.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-christian-science-monitor.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-christian-science-monitor.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Denver Post",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Denver Post.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-denver-post.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-denver-post.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Examiner",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Examiner.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-examiner.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-examiner.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Hollywood Reporter",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Hollywood Reporter.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-hollywood-reporter.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-hollywood-reporter.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Independent",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Independent.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-independent.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-independent.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Onion",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Onion.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-onion.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-onion.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Phildelphia Inquirer",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Phildelphia Inquirer.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-philadelphia-inquirer.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-philadelphia-inquirer.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Sacramento Bee",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Sacramento Bee.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-sacramento-bee.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-sacramento-bee.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Sun",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Sun.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-sun.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-sun.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Toronto Star",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Toronto Star.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/the-toronto-star.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/the-toronto-star.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "The Times of India",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the The Times of India.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/times-of-india.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/times-of-india.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "USA Today",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the USA Today.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/usa-today.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/usa-today.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    },
+    {
+      "name": "Washington Post",
+      "description": "This is a simple Kimono Labs API that pulls headlines from the Washington Post.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "humanURL": "http://poemofthetimes.laneworks.net/",
+      "baseURL": "http://poemofthetimes.laneworks.net/definitions/washington-post.json",
+      "tags": [
+        "news"
+      ],
+      "properties": [
+        {
+          "type": "Swagger",
+          "url": "http://poemofthetimes.laneworks.net/definitions/washington-post.json"
+        }
+      ],
+      "contact": [
+        {
+          "FN": "API Evangliest",
+          "email": "info@apievangelist.com",
+          "X-twitter": "apievangelist"
+        }
+      ]
+    }
+  ],
+  "include": [],
+  "maintainers": [
+    {
+      "FN": "Kin",
+      "X-twitter": "apievangelist",
+      "email": "kin@email.com"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+title : Poem of the Times
+
+markdown: kramdown
+
+safe: true
+lsi: false
+pygments: true
+auto: true
+
+source: poem-of-the-times
+destination: poem-of-the-times
+
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 25
+paginate_path: "/blog/page:num"
+
+production_url : http://poemofthetimes.laneworks.net
+
+BASE_PATH : http://poemofthetimes.laneworks.net
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
