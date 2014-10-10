@@ -4,6 +4,8 @@ title: Poem of the Times
 ---
 
 <h1 class="title">Poem of the Times</h1>
+<ul class="mainlist">
 {% for post in paginator.posts %}
-	<p><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }}</strong></a></p>   
+	<li><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }}</strong></a></li>   
 {% endfor %}
+</ul>
