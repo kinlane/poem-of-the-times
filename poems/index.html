@@ -4,14 +4,6 @@ title: Poem of the Times
 ---
 
 <h1 class="title">Poem of the Times</h1>
-
-<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<div class="post">
-    
-    <p><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }}</strong></a></p>
-    <br />
-    <hr />      
-   
-</div>
+	<p><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }}</strong></a></p>   
 {% endfor %}
