@@ -6,7 +6,7 @@ title: Poem of the Times - Home
 <h1 class="title">Poem of the Times</h1>
 <p>I wanted to make a poem for each that was pulled from the headlines of top newspapers in the world. So I created 25 APIs using Kimono Labs, and I pull a news story from each API, once a day. This site is the result, and here is the latest poem.</p>
 {% for post in site.posts limit:1 %}    
-<p>{{ post.content }}</p>
+{{ post.content }}
 {% endfor %} 
 
 <br /><br />
