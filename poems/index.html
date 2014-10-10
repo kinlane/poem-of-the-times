@@ -9,7 +9,7 @@ title: Poem of the Times
 {% for post in paginator.posts %}
 <div class="post">
     
-    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }} - {{ post.date | date:"%m-%d-%Y" }}</strong></a></p>
+    <p><a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><strong>{{ post.title }}</strong></a></p>
     <br />
     <hr />      
    
