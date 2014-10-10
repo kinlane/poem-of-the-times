@@ -14,7 +14,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 25
-paginate_path: "/blog/page:num"
+paginate_path: "/poems/page:num"
 
 production_url : http://poemofthetimes.laneworks.net
 
